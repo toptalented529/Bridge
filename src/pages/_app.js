@@ -4,6 +4,7 @@ import Head from 'next/head';
 
 import Page from '../components/Page';
 
+import "antd/dist/antd.css";
 import 'css/global.css';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import 'slick-carousel/slick/slick.css';

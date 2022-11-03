@@ -5,10 +5,18 @@ import { toHex } from './utils';
 import tokenAbi from './abis/ERC20.json';
 import bridgeAbi from './abis/Bridge.json';
 import bridgeScallopAbi from './abis/BridgeScallop.json';
+import { useSelector, useDispatch } from 'react-redux';
+import {notification} from "antd"
 
-export const approve = async (amount, tokenAddr, chainId, wallet) => {
+
+
+
+export const approve = async (amount, tokenAddr,currentNetwork, chainId, wallet) => {
+
+
+
   const token = new ethers.Contract(tokenAddr, tokenAbi, wallet);
-  const handlerAddr = bridgeParams[toHex(chainId)].handler;
+  const handlerAddr = bridgeParams[toHex(currentNetwork)][toHex(chainId)].handler;
 
   let amountInWei = ethers.utils.parseUnits(amount.toString(), 'ether');
   let gasPrice = ethers.utils.hexlify(
@@ -32,7 +40,12 @@ export const approve = async (amount, tokenAddr, chainId, wallet) => {
 
   console.log(allowance)
   if (allowance >= amount) {
-    window.alert('Enough token is already approved!');
+    // window.alert('Enough token is already approved!');
+    notification.info({
+      message: "Approve",
+      description:"Enough token is already approved!"
+    }) 
+
     return 1;
   }
 
@@ -41,7 +54,11 @@ export const approve = async (amount, tokenAddr, chainId, wallet) => {
     gasLimit: gasLimit,
   });
 
-  window.alert(`Transaction submitted!\n Transaction hash: ${tx.hash}`);
+  // window.alert(`Transaction submitted!\n Transaction hash: ${tx.hash}`);
+  notification.info({
+    message: "conformed",
+    description:`Transaction submitted!\n Transaction hash: ${tx.hash}`
+  }) 
   const res = await tx.wait();
   return res.status;
 };
@@ -74,6 +91,7 @@ export const deposit = async (
   amount,
   dest,
   resourceId,
+  currentNetwork,
   chainId,
   wallet,
 ) => {
@@ -84,7 +102,7 @@ export const deposit = async (
 
   console.log("ffeerr",chainId)
 
-  const bridgeAddr = bridgeParams[toHex(chainId)].bridge;
+  const bridgeAddr = bridgeParams[toHex(currentNetwork)][toHex(chainId)].bridge;
   const bridge = new ethers.Contract(bridgeAddr, bridgeAbi.abi, wallet);
   const recipient = await wallet.getAddress();
 
@@ -120,7 +138,11 @@ export const deposit = async (
     { gasPrice: gasPrice, gasLimit: gasLimit },
   );
 
-  window.alert(`Transaction submitted!\n Transaction hash: ${tx.hash}`);
+  // window.alert(`Transaction submitted!\n Transaction hash: ${tx.hash}`);
+  notification.info({
+    message: "transaction!",
+    description:`Transaction submitted!\n Transaction hash: ${tx.hash}`
+  }) 
   const res = await tx.wait();
   return res.status;
 };
@@ -129,10 +151,11 @@ export const depositScallop = async (
   amount,
   dest,
   resourceId,
+  currentNetwork,
   chainId,
   wallet,
 ) => {
-  const bridgeAddr = bridgeParams[toHex(chainId)].bridge;
+  const bridgeAddr = bridgeParams[toHex(currentNetwork)][toHex(chainId)].bridge;
   const bridge = new ethers.Contract(bridgeAddr, bridgeScallopAbi, wallet);
   const recipient = await wallet.getAddress();
 
@@ -168,7 +191,11 @@ export const depositScallop = async (
     { gasPrice: gasPrice, gasLimit: gasLimit },
   );
 
-  window.alert(`Transaction submitted!\n Transaction hash: ${tx.hash}`);
+  // window.alert(`Transaction submitted!\n Transaction hash: ${tx.hash}`);
+  notification.info({
+    message: "conformed",
+    description:`Transaction submitted!\n Transaction hash: ${tx.hash}`
+  }) 
   const res = await tx.wait();
   return res.status;
 };
