@@ -1,18 +1,18 @@
 export const assets = [
   {
     address: {
-      '0x2328': '0x25Aa98e00E805dA83C604E0e77845886319F0763',
+      '0x2328': '0xCDCEce96885125355ad0Cd3764dF45DCbFf55Cf3',
       '0x13881': '0x9c3C9283D3e44854697Cd22D3Faa240Cfb032889',
     },
     name: 'WMATIC',
     symbol: 'Wmatic',
-    resourceId: '0x000000000000000000000000000000c76ebe4a02bbc34786d860b355f5a5ce01',
+    resourceId: '0x000000000000000000000000000000c76ebe4a02bbc34786d860b355f5a5ce02',
     bridgeID: 0
   },
   {
     address: {
-      '0x2328': '0xC65857f77CbcaE40c3f3841a98510F78286DB588',
-      '0x5': '0x9c3C9283D3e44854697Cd22D3Faa240Cfb032889',
+      '0x2328': '0xD47c53ef8FCCce40dBbd6385273a4aF89201EEB5',
+      '0x5': '0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6',
     },
     name: 'WETH',
     symbol: 'Weth',
@@ -21,7 +21,7 @@ export const assets = [
   },
   {
     address: {
-      '0x2328': '0x9afD645fD4A9e05f5F2e469bd86dBbb7FAD62036',
+      '0x2328': '0x70D9655056045c8aedd61d31B96552752BF4c1aA',
       '0x61': '0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd',
     },
     name: 'WBNB',
@@ -56,18 +56,20 @@ export const networkParams = {
     gasPrice: '30000000000',
     gasLimit: '8000000'
   },
-  // '0x5': {
-  //   id: 0,
-  //   chainId: 5,
-  //   hexChainId: '0x5',
-  //   rpcUrls: ['https://goerli.infura.io/v3/'],
-  //   chainName: 'Ethereum Testnet',
-  //   nativeCurrency: { name: 'Ether', decimals: 18, symbol: 'Ether' },
-  //   blockExplorerUrl: ['https://goerli.etherscan.io'],
-  //   iconUrls: [],
-  //   gasPrice: '30000000000',
-  //   gasLimit: '8000000'
-  // },
+/*
+  '0x5': {
+    id: 0,
+    chainId: 5,
+    hexChainId: '0x5',
+    rpcUrls: ['https://ethereum-goerli-rpc.allthatnode.com'],
+    chainName: 'Ethereum Testnet',
+    nativeCurrency: { name: 'Ether', decimals: 18, symbol: 'Ether' },
+    blockExplorerUrl: ['https://goerli.etherscan.io'],
+    iconUrls: [],
+    gasPrice: '30000000000',
+    gasLimit: '8000000'
+  },
+*/
   '0x61': {
     id: 0,
     chainId: 97,
@@ -85,23 +87,34 @@ export const networkParams = {
 export const bridgeParams = {
   "0x61": {
     '0x2328': {
-      bridge: '0x5811c01d662994C72B104C207f9814011e4AcF7b',
-      handler: '0xcC48D964B8E4fed7172C591366E9472a57aE1E5A'
+      bridge: '0x8332E793D17FD759B40C4d85Cd11B59Fd7e25A26',
+      handler: '0x321A8AfC3BbB01DfCC50fD03E5259C6A94EaC149'
     },
     '0x61': {
-      bridge: '0xcC48D964B8E4fed7172C591366E9472a57aE1E5A',
-      handler: '0x9afD645fD4A9e05f5F2e469bd86dBbb7FAD62036',
+      bridge: '0x4e84C2C46C6314255c3D5c2bEE95C79C51F1f800',
+      handler: '0x107a7677DE9C6ce777A487e67C1E600FE1Ff0664',
       kycOracle: '0x45857A2887500518921fdA96FA8A0E16737345bF'
     }
   },
   "0x13881": {
     '0x2328': {
-      bridge: '0x4211fFdd7e9f16664C26E60414bA5aa0bB8339f7',
-      handler: '0xdDd56B9F99AdeAC1bC868dc1CDBD49297F1BA107'
+      bridge: '0xAE131c6d3A4FE33D89bf1f2F0beD651c48088628',
+      handler: '0xc58Fa8DF06789873128A84B168b7D065eb4deDFd'
     },
     '0x13881': {
-      bridge: '0x35A464a4872C6F58BAFF842f24C0fDC15E4F85AA',
-      handler: '0x934f28AC9a132CEcf95B49830074Cdf360264171',
+      bridge: '0x566427a195ceB38eB045a8cA66051624a699079A',
+      handler: '0x05a2730C9E9F5828c4ED1D830744010393c79C7e',
+      kycOracle: '0x934f28AC9a132CEcf95B49830074Cdf360264171'
+    }
+  },
+  "0x5": {
+    '0x2328': {
+      bridge: '0x107a7677DE9C6ce777A487e67C1E600FE1Ff0664',
+      handler: '0xdD0800Ec703948d306936661db1808E38fC21833'
+    },
+    '0x5': {
+      bridge: '0x4e84C2C46C6314255c3D5c2bEE95C79C51F1f800',
+      handler: '0x107a7677DE9C6ce777A487e67C1E600FE1Ff0664',
       kycOracle: '0x934f28AC9a132CEcf95B49830074Cdf360264171'
     }
   }
