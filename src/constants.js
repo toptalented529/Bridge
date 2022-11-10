@@ -56,7 +56,7 @@ export const networkParams = {
     gasPrice: '30000000000',
     gasLimit: '8000000'
   },
-/*
+
   '0x5': {
     id: 0,
     chainId: 5,
@@ -69,7 +69,6 @@ export const networkParams = {
     gasPrice: '30000000000',
     gasLimit: '8000000'
   },
-*/
   '0x61': {
     id: 0,
     chainId: 97,
