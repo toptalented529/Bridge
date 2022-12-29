@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Flex, Skeleton } from 'inve-swap-uikit'
+import { Box, Flex, Skeleton } from 'dbx-swap-uikit'
 import styled from 'styled-components'
 import times from 'lodash/times'
 import { PROPOSALS_TO_SHOW } from '../../config'

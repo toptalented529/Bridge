@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Text, Button, Card, useModal } from 'inve-swap-uikit'
+import { Text, Button, Card, useModal } from 'dbx-swap-uikit'
 import { useTranslation } from 'contexts/Localization'
 import LaunchModal from '../LaunchModal'
 

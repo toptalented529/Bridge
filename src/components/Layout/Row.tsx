@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Box } from 'inve-swap-uikit'
+import { Box } from 'dbx-swap-uikit'
 
 const Row = styled(Box)<{
   width?: string

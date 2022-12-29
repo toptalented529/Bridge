@@ -13,7 +13,7 @@ import {
   useModal,
   Box,
   useTooltip,
-} from 'inve-swap-uikit'
+} from 'dbx-swap-uikit'
 import { useTranslation } from 'contexts/Localization'
 import { getBalanceNumber } from 'utils/formatBalance'
 import { usePriceColaBusd } from 'state/farms/hooks'

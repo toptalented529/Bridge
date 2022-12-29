@@ -1,4 +1,4 @@
-import { Image } from 'inve-swap-uikit'
+import { Image } from 'dbx-swap-uikit'
 import styled from 'styled-components'
 
 const DesktopImage = styled(Image)`

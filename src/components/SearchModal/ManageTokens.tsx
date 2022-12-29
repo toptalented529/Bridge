@@ -1,6 +1,6 @@
 import React, { useRef, RefObject, useCallback, useState, useMemo } from 'react'
-import { Token } from 'inve-swap-sdk'
-import { Text, Button, CloseIcon, IconButton, LinkExternal, Input, Link } from 'inve-swap-uikit'
+import { Token } from 'dbx-swap-sdk'
+import { Text, Button, CloseIcon, IconButton, LinkExternal, Input, Link } from 'dbx-swap-uikit'
 import styled from 'styled-components'
 import Row, { RowBetween, RowFixed } from 'components/Layout/Row'
 import { useToken } from 'hooks/Tokens'

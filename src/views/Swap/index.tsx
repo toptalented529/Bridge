@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useMemo, useState } from 'react'
 import styled from 'styled-components'
-import { CurrencyAmount, JSBI, Token, Trade } from 'inve-swap-sdk'
-import { Button, Text, ArrowDownIcon, Box, useModal } from 'inve-swap-uikit'
+import { CurrencyAmount, JSBI, Token, Trade } from 'dbx-swap-sdk'
+import { Button, Text, ArrowDownIcon, Box, useModal } from 'dbx-swap-uikit'
 
 import { useIsTransactionUnsupported } from 'hooks/Trades'
 import { RouteComponentProps } from 'react-router-dom'

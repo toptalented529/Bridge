@@ -1,4 +1,4 @@
-import { ChainId } from 'inve-swap-sdk'
+import { ChainId } from 'dbx-swap-sdk'
 import { createStore, Store } from 'redux'
 import { updateBlockNumber } from './actions'
 import reducer, { ApplicationState } from './reducer'

@@ -3,7 +3,7 @@
 import React from 'react'
 import BigNumber from 'bignumber.js'
 import styled from 'styled-components'
-import { Button, useModal, AutoRenewIcon } from 'inve-swap-uikit'
+import { Button, useModal, AutoRenewIcon } from 'dbx-swap-uikit'
 
 import { BASE_ADD_LIQUIDITY_URL } from 'config'
 import { Farm } from 'state/types'

@@ -1,7 +1,7 @@
 // eslint-disable-next-line
 import React from 'react'
 import styled from 'styled-components'
-import { Card } from 'inve-swap-uikit'
+import { Card } from 'dbx-swap-uikit'
 
 const StyledFarmStakingCard = styled(Card)`
   position: relative;

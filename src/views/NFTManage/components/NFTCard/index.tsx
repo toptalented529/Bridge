@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import axios from 'axios'
 import useToast from 'hooks/useToast'
 
-import { CardBody, Flex, CardRibbon, Button } from 'inve-swap-uikit'
+import { CardBody, Flex, CardRibbon, Button } from 'dbx-swap-uikit'
 import { useTranslation } from 'contexts/Localization'
 import { StyledCard, StyledCardInner } from './StyledCard'
 import StyledCardHeader from './StyledCardHeader'

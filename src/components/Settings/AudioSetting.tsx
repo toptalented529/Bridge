@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Flex, Text, Toggle, useMatchBreakpoints } from "inve-swap-uikit";
+import { Box, Flex, Text, Toggle, useMatchBreakpoints } from "dbx-swap-uikit";
 import { useAudioModeManager } from "state/user/hooks";
 
 type AudioSettingModalProps = {

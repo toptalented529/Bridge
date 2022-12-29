@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, TuneIcon, NotificationDot, useModal } from 'inve-swap-uikit'
+import { Button, TuneIcon, NotificationDot, useModal } from 'dbx-swap-uikit'
 import { useExpertModeManager } from 'state/user/hooks'
 import SettingsModal from './SettingsModal'
 

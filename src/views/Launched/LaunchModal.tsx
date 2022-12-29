@@ -9,7 +9,7 @@ import {
   ModalCloseButton,
   ModalBody,
   InjectedModalProps,
-} from 'inve-swap-uikit'
+} from 'dbx-swap-uikit'
 import styled from 'styled-components'
 import CurrencyInputPanel from './components/inputpanel'
 

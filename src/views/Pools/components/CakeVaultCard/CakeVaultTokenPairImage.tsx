@@ -1,5 +1,5 @@
 import React from 'react'
-import { TokenPairImage, ImageProps } from 'inve-swap-uikit'
+import { TokenPairImage, ImageProps } from 'dbx-swap-uikit'
 import tokens from 'config/constants/tokens'
 import { getAddress } from 'utils/addressHelpers'
 

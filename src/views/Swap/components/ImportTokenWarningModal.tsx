@@ -1,6 +1,6 @@
 import React from 'react'
-import { Token } from 'inve-swap-sdk'
-import { Modal, InjectedModalProps } from 'inve-swap-uikit'
+import { Token } from 'dbx-swap-sdk'
+import { Modal, InjectedModalProps } from 'dbx-swap-uikit'
 import ImportToken from 'components/SearchModal/ImportToken'
 
 interface Props extends InjectedModalProps {

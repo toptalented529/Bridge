@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Text } from 'inve-swap-uikit'
+import { Box, Text } from 'dbx-swap-uikit'
 import styled from 'styled-components'
 
 const BaseLabel = styled.label`

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, CardBody, Heading, Text } from 'inve-swap-uikit'
+import { Card, CardBody, Heading, Text } from 'dbx-swap-uikit'
 import { useTranslation } from 'contexts/Localization'
 import CardContent from './CardContent'
 

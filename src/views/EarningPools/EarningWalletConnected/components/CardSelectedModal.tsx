@@ -1,7 +1,7 @@
 import React from 'react'
 import BigNumber from 'bignumber.js'
 import { getAddress } from 'utils/addressHelpers'
-import { ModalContainer, InjectedModalProps, ModalCloseButton } from 'inve-swap-uikit'
+import { ModalContainer, InjectedModalProps, ModalCloseButton } from 'dbx-swap-uikit'
 import styled from 'styled-components'
 import { FarmWithStakedValue } from 'views/Farms/components/FarmCard/FarmCard'
 import SelectedModalCard from './SelectedModalCard'

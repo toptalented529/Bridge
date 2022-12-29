@@ -1,4 +1,4 @@
-import { Flex, Text } from 'inve-swap-uikit'
+import { Flex, Text } from 'dbx-swap-uikit'
 import styled from 'styled-components'
 
 const BaseCell = styled.div`

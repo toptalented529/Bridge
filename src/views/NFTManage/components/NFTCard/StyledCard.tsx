@@ -1,5 +1,5 @@
 import styled, { css, keyframes } from 'styled-components'
-import { Card, Box } from 'inve-swap-uikit'
+import { Card, Box } from 'dbx-swap-uikit'
 
 const PromotedGradient = keyframes`
   0% {

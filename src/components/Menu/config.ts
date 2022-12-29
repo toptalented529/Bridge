@@ -1,4 +1,4 @@
-import { MenuEntry } from 'inve-swap-uikit'
+import { MenuEntry } from 'dbx-swap-uikit'
 import { ContextApi } from 'contexts/Localization/types'
 
 const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [

@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import BigNumber from 'bignumber.js'
 import styled from 'styled-components'
 import { useWeb3React } from '@web3-react/core'
-import { Button } from 'inve-swap-uikit'
+import { Button } from 'dbx-swap-uikit'
 
 import { useTranslation } from 'contexts/Localization'
 import { useAppDispatch } from 'state'

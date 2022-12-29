@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { useTranslation } from 'contexts/Localization'
-import { Button, Text } from 'inve-swap-uikit'
+import { Button, Text } from 'dbx-swap-uikit'
 import LaunchCard from './components/LaunchCard'
 import Page from './components/Page'
 import BaseLayout from '../../components/BaseLayout'

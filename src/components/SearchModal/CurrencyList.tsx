@@ -1,6 +1,6 @@
 import React, { CSSProperties, MutableRefObject, useCallback, useMemo } from 'react'
-import { Currency, CurrencyAmount, currencyEquals, ETHER, Token } from 'inve-swap-sdk'
-import { Text } from 'inve-swap-uikit'
+import { Currency, CurrencyAmount, currencyEquals, ETHER, Token } from 'dbx-swap-sdk'
+import { Text } from 'dbx-swap-uikit'
 import styled from 'styled-components'
 import { FixedSizeList } from 'react-window'
 import { wrappedCurrency } from 'utils/wrappedCurrency'

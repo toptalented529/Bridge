@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import styled from 'styled-components'
-import { Flex } from 'inve-swap-uikit'
+import { Flex } from 'dbx-swap-uikit'
 
 const StyledIconField = styled.div`
   position: absolute;

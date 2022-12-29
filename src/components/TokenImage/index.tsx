@@ -4,7 +4,7 @@ import {
   TokenPairImageProps as UIKitTokenPairImageProps,
   TokenImage as UIKitTokenImage,
   ImageProps,
-} from 'inve-swap-uikit'
+} from 'dbx-swap-uikit'
 import tokens from 'config/constants/tokens'
 import { Token } from 'config/constants/types'
 import { getAddress } from 'utils/addressHelpers'

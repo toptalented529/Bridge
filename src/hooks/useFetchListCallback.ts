@@ -1,5 +1,5 @@
 import { nanoid } from '@reduxjs/toolkit'
-import { ChainId } from 'inve-swap-sdk'
+import { ChainId } from 'dbx-swap-sdk'
 import { TokenList } from '@zilionixx/zilionixx-token-lists'
 import { useCallback } from 'react'
 import { useDispatch } from 'react-redux'

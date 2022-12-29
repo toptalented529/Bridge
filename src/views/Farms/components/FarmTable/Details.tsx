@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { ChevronDownIcon, useMatchBreakpoints } from 'inve-swap-uikit'
+import { ChevronDownIcon, useMatchBreakpoints } from 'dbx-swap-uikit'
 import { useTranslation } from 'contexts/Localization'
 
 interface DetailsProps {

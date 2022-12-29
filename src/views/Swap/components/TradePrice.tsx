@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Price } from 'inve-swap-sdk'
-import { Text, AutoRenewIcon } from 'inve-swap-uikit'
+import { Price } from 'dbx-swap-sdk'
+import { Text, AutoRenewIcon } from 'dbx-swap-uikit'
 import { StyledBalanceMaxMini } from './styleds'
 
 const StyledText = styled(Text)`

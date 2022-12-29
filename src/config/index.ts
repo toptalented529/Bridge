@@ -1,4 +1,4 @@
-import { ChainId } from 'inve-swap-sdk'
+import { ChainId } from 'dbx-swap-sdk'
 import BigNumber from 'bignumber.js/bignumber'
 import { BIG_TEN } from 'utils/bigNumber'
 

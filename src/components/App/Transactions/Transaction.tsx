@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { CheckmarkIcon, CloseIcon, LinkExternal } from 'inve-swap-uikit'
+import { CheckmarkIcon, CloseIcon, LinkExternal } from 'dbx-swap-uikit'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 import { getZnxScanLink } from 'utils'
 import { TransactionDetails } from 'state/transactions/reducer'

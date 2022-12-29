@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react'
 import styled from 'styled-components'
 import { useCountUp } from 'react-countup'
-import { Text } from 'inve-swap-uikit'
+import { Text } from 'dbx-swap-uikit'
 
 const StyledText = styled(Text)`
   color: ${({ theme }) => (theme.isDark ? '#d6d7e399' : '#19274b99')};

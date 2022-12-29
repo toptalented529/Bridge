@@ -1,5 +1,5 @@
 import React from 'react'
-import { Flex, Text } from 'inve-swap-uikit'
+import { Flex, Text } from 'dbx-swap-uikit'
 import { useWeb3React } from '@web3-react/core'
 import { useTranslation } from 'contexts/Localization'
 import { usePriceColaBusd } from 'state/farms/hooks'

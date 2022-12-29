@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, JSBI, Pair, Percent, TokenAmount } from 'inve-swap-sdk'
+import { Currency, CurrencyAmount, JSBI, Pair, Percent, TokenAmount } from 'dbx-swap-sdk'
 import { useCallback } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'

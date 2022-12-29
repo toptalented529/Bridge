@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { useLocation, Link, useRouteMatch } from 'react-router-dom'
-import { ButtonMenu, ButtonMenuItem, NotificationDot } from 'inve-swap-uikit'
+import { ButtonMenu, ButtonMenuItem, NotificationDot } from 'dbx-swap-uikit'
 import { useTranslation } from 'contexts/Localization'
 
 interface FarmTabButtonsProps {

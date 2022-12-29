@@ -1,5 +1,5 @@
 import React from 'react'
-import { Flex, Button, useModal, Skeleton } from 'inve-swap-uikit'
+import { Flex, Button, useModal, Skeleton } from 'dbx-swap-uikit'
 import BigNumber from 'bignumber.js'
 import { useTranslation } from 'contexts/Localization'
 import { Pool } from 'state/types'

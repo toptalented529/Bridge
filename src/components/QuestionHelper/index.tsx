@@ -1,5 +1,5 @@
 import React from 'react'
-import { HelpIcon, useTooltip, Box, BoxProps } from 'inve-swap-uikit'
+import { HelpIcon, useTooltip, Box, BoxProps } from 'dbx-swap-uikit'
 import styled from 'styled-components'
 
 interface Props extends BoxProps {

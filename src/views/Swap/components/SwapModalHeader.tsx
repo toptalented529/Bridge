@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react'
-import { Trade, TradeType } from 'inve-swap-sdk'
-import { Button, Text, ErrorIcon, ArrowDownIcon } from 'inve-swap-uikit'
+import { Trade, TradeType } from 'dbx-swap-sdk'
+import { Button, Text, ErrorIcon, ArrowDownIcon } from 'dbx-swap-uikit'
 import { Field } from 'state/swap/actions'
 import { isAddress, shortenAddress } from 'utils'
 import { computeSlippageAdjustedAmounts, computeTradePriceBreakdown, warningSeverity } from 'utils/prices'

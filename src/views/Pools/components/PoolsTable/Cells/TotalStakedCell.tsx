@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react'
-import { Flex, Skeleton, Text } from 'inve-swap-uikit'
+import { Flex, Skeleton, Text } from 'dbx-swap-uikit'
 import styled from 'styled-components'
 import { useTranslation } from 'contexts/Localization'
 import BigNumber from 'bignumber.js'

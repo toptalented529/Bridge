@@ -1,6 +1,6 @@
 import React, { Fragment, memo } from 'react'
-import { Trade } from 'inve-swap-sdk'
-import { Text, Flex, ChevronRightIcon } from 'inve-swap-uikit'
+import { Trade } from 'dbx-swap-sdk'
+import { Text, Flex, ChevronRightIcon } from 'dbx-swap-uikit'
 import { unwrappedToken } from 'utils/wrappedCurrency'
 
 export default memo(function SwapRoute({ trade }: { trade: Trade }) {

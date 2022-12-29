@@ -1,4 +1,4 @@
-import { ChainId, Token } from 'inve-swap-sdk'
+import { ChainId, Token } from 'dbx-swap-sdk'
 import { Tags, TokenInfo, TokenList } from '@zilionixx/zilionixx-token-lists'
 import { useMemo } from 'react'
 import { useSelector } from 'react-redux'

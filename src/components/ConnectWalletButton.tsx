@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, useWalletModal } from 'inve-swap-uikit'
+import { Button, useWalletModal } from 'dbx-swap-uikit'
 import useAuth from 'hooks/useAuth'
 import { useTranslation } from 'contexts/Localization'
 import styled from 'styled-components'

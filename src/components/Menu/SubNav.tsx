@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Link, useLocation } from 'react-router-dom'
-import { ButtonMenu, ButtonMenuItem } from 'inve-swap-uikit'
+import { ButtonMenu, ButtonMenuItem } from 'dbx-swap-uikit'
 
 const StyledNav = styled.nav`
   margin-top: -2vw;

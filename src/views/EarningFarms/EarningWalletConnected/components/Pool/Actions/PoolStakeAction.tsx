@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Flex, Button, IconButton, AddIcon, useModal, Skeleton, useTooltip } from 'inve-swap-uikit'
+import { Flex, Button, IconButton, AddIcon, useModal, Skeleton, useTooltip } from 'dbx-swap-uikit'
 import BigNumber from 'bignumber.js'
 
 import { useTranslation } from 'contexts/Localization'

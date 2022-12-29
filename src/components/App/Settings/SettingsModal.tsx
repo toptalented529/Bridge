@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Button, Text, ZilionixxToggle, Flex, Message, Modal, ModalBody, InjectedModalProps } from 'inve-swap-uikit'
+import { Button, Text, ZilionixxToggle, Flex, Message, Modal, ModalBody, InjectedModalProps } from 'dbx-swap-uikit'
 import {
   useAudioModeManager,
   useExpertModeManager,

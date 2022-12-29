@@ -1,5 +1,5 @@
 import React from 'react'
-import { Flex } from 'inve-swap-uikit'
+import { Flex } from 'dbx-swap-uikit'
 import styled from 'styled-components'
 import Hero from './components/Hero'
 import Footer from './components/Footer'

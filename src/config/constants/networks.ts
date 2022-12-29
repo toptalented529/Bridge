@@ -1,4 +1,4 @@
-import { ChainId } from 'inve-swap-sdk'
+import { ChainId } from 'dbx-swap-sdk'
 
 const NETWORK_URLS: { [chainId in ChainId]: string } = {
   [ChainId.MAINNET]: 'https://bsc-dataseed1.defibit.io',

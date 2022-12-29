@@ -1,4 +1,4 @@
-import { Currency } from 'inve-swap-sdk'
+import { Currency } from 'dbx-swap-sdk'
 import React from 'react'
 import styled from 'styled-components'
 import CurrencyLogo from './CurrencyLogo'

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Text, Flex } from 'inve-swap-uikit'
+import { Text, Flex } from 'dbx-swap-uikit'
 import BigNumber from 'bignumber.js'
 import { useTranslation } from 'contexts/Localization'
 import { VotingBox, ModalInner } from './styles'

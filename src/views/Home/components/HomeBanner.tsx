@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { NavLink } from 'react-router-dom'
-import { Text, Flex, Button } from 'inve-swap-uikit'
+import { Text, Flex, Button } from 'dbx-swap-uikit'
 
 import { useTranslation } from 'contexts/Localization'
 

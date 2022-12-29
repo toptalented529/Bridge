@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import { Token } from 'inve-swap-sdk'
-import { ButtonMenu, ButtonMenuItem, ModalBody } from 'inve-swap-uikit'
+import { Token } from 'dbx-swap-sdk'
+import { ButtonMenu, ButtonMenuItem, ModalBody } from 'dbx-swap-uikit'
 // import styled from 'styled-components'
 import { TokenList } from '@zilionixx/zilionixx-token-lists'
 import { useTranslation } from 'contexts/Localization'

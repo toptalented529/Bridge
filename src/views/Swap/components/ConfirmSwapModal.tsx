@@ -1,6 +1,6 @@
 import React, { useCallback, useMemo } from 'react'
-import { currencyEquals, Trade } from 'inve-swap-sdk'
-import { InjectedModalProps } from 'inve-swap-uikit'
+import { currencyEquals, Trade } from 'dbx-swap-sdk'
+import { InjectedModalProps } from 'dbx-swap-uikit'
 import { useTranslation } from 'contexts/Localization'
 import TransactionConfirmationModal, {
   ConfirmationModalContent,

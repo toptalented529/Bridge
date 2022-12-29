@@ -1,5 +1,5 @@
 import React, { useCallback, useState } from 'react'
-import { Currency, Token } from 'inve-swap-sdk'
+import { Currency, Token } from 'dbx-swap-sdk'
 import {
   ModalContainer,
   ModalHeader,
@@ -10,7 +10,7 @@ import {
   InjectedModalProps,
   Button,
   Heading,
-} from 'inve-swap-uikit'
+} from 'dbx-swap-uikit'
 import styled from 'styled-components'
 import usePrevious from 'hooks/usePreviousValue'
 import { TokenList } from '@zilionixx/zilionixx-token-lists'

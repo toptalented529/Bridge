@@ -1,5 +1,5 @@
 import React from 'react'
-import { Text } from 'inve-swap-uikit'
+import { Text } from 'dbx-swap-uikit'
 import getTimePeriods from 'utils/getTimePeriods'
 import { useTranslation } from 'contexts/Localization'
 

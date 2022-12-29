@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import styled from 'styled-components'
-import { Modal, Text, Flex, Image, Button, BalanceInput, AutoRenewIcon, Link } from 'inve-swap-uikit'
+import { Modal, Text, Flex, Image, Button, BalanceInput, AutoRenewIcon, Link } from 'dbx-swap-uikit'
 import { useTranslation } from 'contexts/Localization'
 import useTheme from 'hooks/useTheme'
 import useToast from 'hooks/useToast'

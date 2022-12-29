@@ -1,6 +1,6 @@
 import React from 'react'
 import { useTranslation } from 'contexts/Localization'
-import { Text } from 'inve-swap-uikit'
+import { Text } from 'dbx-swap-uikit'
 
 const SafemoonWarning = () => {
   const { t } = useTranslation()

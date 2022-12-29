@@ -1,4 +1,4 @@
-import { Language } from 'inve-swap-uikit'
+import { Language } from 'dbx-swap-uikit'
 
 export const AR: Language = { locale: 'ar-SA', language: 'العربية', code: 'ar' }
 export const BN: Language = { locale: 'bn-BD', language: 'বাংলা', code: 'bn' }

@@ -1,6 +1,6 @@
 import React, { CSSProperties } from 'react'
-import { Token } from 'inve-swap-sdk'
-import { Button, Text, CheckmarkCircleIcon } from 'inve-swap-uikit'
+import { Token } from 'dbx-swap-sdk'
+import { Button, Text, CheckmarkCircleIcon } from 'dbx-swap-uikit'
 import { AutoRow, RowFixed } from 'components/Layout/Row'
 import { AutoColumn } from 'components/Layout/Column'
 import CurrencyLogo from 'components/Logo/CurrencyLogo'

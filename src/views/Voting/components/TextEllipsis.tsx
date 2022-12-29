@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Text } from 'inve-swap-uikit'
+import { Text } from 'dbx-swap-uikit'
 
 const TextEllipsis = styled(Text)`
   overflow: hidden;

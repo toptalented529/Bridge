@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import { Token, Currency } from 'inve-swap-sdk'
-import { Button, Text, ErrorIcon, Flex, Message, Checkbox, Link, Tag, Grid } from 'inve-swap-uikit'
+import { Token, Currency } from 'dbx-swap-sdk'
+import { Button, Text, ErrorIcon, Flex, Message, Checkbox, Link, Tag, Grid } from 'dbx-swap-uikit'
 import { AutoColumn } from 'components/Layout/Column'
 import { useAddUserToken } from 'state/user/hooks'
 import { getZnxScanLink } from 'utils'

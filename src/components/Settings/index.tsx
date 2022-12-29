@@ -8,7 +8,7 @@ import {
   useModal,
   TuneIcon,
   HistoryIcon,
-} from "inve-swap-uikit";
+} from "dbx-swap-uikit";
 import SettingsModal from "./SettingsModal";
 
 interface PageHeaderProps {

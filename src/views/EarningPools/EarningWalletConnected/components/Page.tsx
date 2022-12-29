@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Flex } from 'inve-swap-uikit'
+import { Flex } from 'dbx-swap-uikit'
 import Footer from 'components/Menu/Footer'
 
 const StyledPage = styled.div`

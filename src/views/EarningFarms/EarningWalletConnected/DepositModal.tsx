@@ -1,7 +1,7 @@
 import BigNumber from 'bignumber.js'
 import styled from 'styled-components'
 import React, { useCallback, useMemo, useState } from 'react'
-import { Button, Modal } from 'inve-swap-uikit'
+import { Button, Modal } from 'dbx-swap-uikit'
 import { ModalActions, ModalInput } from 'components/Modal'
 import { useTranslation } from 'contexts/Localization'
 import { getFullDisplayBalance } from 'utils/formatBalance'

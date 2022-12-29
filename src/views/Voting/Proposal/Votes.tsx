@@ -9,7 +9,7 @@ import {
   Button,
   ChevronUpIcon,
   Text,
-} from 'inve-swap-uikit'
+} from 'dbx-swap-uikit'
 import { useWeb3React } from '@web3-react/core'
 import orderBy from 'lodash/orderBy'
 import { useTranslation } from 'contexts/Localization'

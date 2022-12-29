@@ -5,7 +5,7 @@ import { JsonRpcSigner, Web3Provider } from '@ethersproject/providers'
 import { BigNumber } from '@ethersproject/bignumber'
 import { abi as IZilionixxSwapRouterABI } from 'inve-swap-periphery/build/IZilionixxSwapRouter.json'
 
-import { ChainId, JSBI, Percent, Token, CurrencyAmount, Currency, ETHER } from 'inve-swap-sdk'
+import { ChainId, JSBI, Percent, Token, CurrencyAmount, Currency, ETHER } from 'dbx-swap-sdk'
 import { ROUTER_ADDRESS } from '../config/constants'
 import { BASE_BSC_SCAN_URLS } from '../config'
 import { TokenAddressMap } from '../state/lists/hooks'

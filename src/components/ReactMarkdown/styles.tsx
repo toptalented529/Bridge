@@ -1,5 +1,5 @@
 import React from 'react'
-import { Heading } from 'inve-swap-uikit'
+import { Heading } from 'dbx-swap-uikit'
 import { NormalComponents, SpecialComponents } from 'react-markdown/src/ast-to-react'
 import styled from 'styled-components'
 

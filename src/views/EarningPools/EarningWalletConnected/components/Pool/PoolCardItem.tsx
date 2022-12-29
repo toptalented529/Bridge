@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Button, useModal, AutoRenewIcon } from 'inve-swap-uikit'
+import { Button, useModal, AutoRenewIcon } from 'dbx-swap-uikit'
 import useTheme from 'hooks/useTheme'
 import { getAddress } from 'utils/addressHelpers'
 import { Pool } from 'state/types'

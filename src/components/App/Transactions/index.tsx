@@ -1,5 +1,5 @@
 import React from 'react'
-import { HistoryIcon, Button, useModal } from 'inve-swap-uikit'
+import { HistoryIcon, Button, useModal } from 'dbx-swap-uikit'
 import TransactionsModal from './TransactionsModal'
 
 const Transactions = () => {

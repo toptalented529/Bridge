@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Button, Heading, Text, Flex, Link } from 'inve-swap-uikit'
+import { Button, Heading, Text, Flex, Link } from 'dbx-swap-uikit'
 import { useTranslation } from 'contexts/Localization'
 import PageHeader from 'components/PageHeader'
 import PageSection from 'components/PageSection'

@@ -1,5 +1,5 @@
 import React from 'react'
-import { ModalContainer, Text, Button, Image } from 'inve-swap-uikit'
+import { ModalContainer, Text, Button, Image } from 'dbx-swap-uikit'
 import { useTranslation } from 'contexts/Localization'
 import styled from 'styled-components'
 

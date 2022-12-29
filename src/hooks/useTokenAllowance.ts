@@ -1,4 +1,4 @@
-import { Token, TokenAmount } from 'inve-swap-sdk'
+import { Token, TokenAmount } from 'dbx-swap-sdk'
 import { useMemo } from 'react'
 
 import { useTokenContract } from './useContract'

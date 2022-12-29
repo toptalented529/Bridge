@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Box } from 'inve-swap-uikit'
+import { Box } from 'dbx-swap-uikit'
 import Container from '../Layout/Container'
 
 const Outer = styled(Box)<{ background?: string }>`

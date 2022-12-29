@@ -1,6 +1,6 @@
 import React from 'react'
 import BigNumber from 'bignumber.js'
-import { Flex, LinkExternal, Text, Tag, CheckmarkCircleIcon } from 'inve-swap-uikit'
+import { Flex, LinkExternal, Text, Tag, CheckmarkCircleIcon } from 'dbx-swap-uikit'
 import truncateWalletAddress from 'utils/truncateWalletAddress'
 import { getZnxScanLink } from 'utils'
 import { useTranslation } from 'contexts/Localization'

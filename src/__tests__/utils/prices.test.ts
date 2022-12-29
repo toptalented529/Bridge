@@ -1,4 +1,4 @@
-import { ChainId, JSBI, Pair, Route, Token, TokenAmount, Trade, TradeType } from 'inve-swap-sdk'
+import { ChainId, JSBI, Pair, Route, Token, TokenAmount, Trade, TradeType } from 'dbx-swap-sdk'
 import { computeTradePriceBreakdown } from 'utils/prices'
 
 describe('prices', () => {

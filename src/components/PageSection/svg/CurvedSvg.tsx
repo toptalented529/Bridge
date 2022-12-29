@@ -1,6 +1,6 @@
 import React from 'react'
 import styled, { css, DefaultTheme } from 'styled-components'
-import { Box } from 'inve-swap-uikit'
+import { Box } from 'dbx-swap-uikit'
 import { ClipFill } from '../types'
 
 interface CurveProps {

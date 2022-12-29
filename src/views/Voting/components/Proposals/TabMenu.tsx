@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { TabMenu as UIKitTabMenu, Tab, Flex, VerifiedIcon, CommunityIcon } from 'inve-swap-uikit'
+import { TabMenu as UIKitTabMenu, Tab, Flex, VerifiedIcon, CommunityIcon } from 'dbx-swap-uikit'
 import { useTranslation } from 'contexts/Localization'
 import { ProposalType } from 'state/types'
 

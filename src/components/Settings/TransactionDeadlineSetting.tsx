@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
-import { Input, Text, Flex, Box } from "inve-swap-uikit";
+import { Input, Text, Flex, Box } from "dbx-swap-uikit";
 import { useUserDeadline } from "state/user/hooks";
 import QuestionHelper from "../QuestionHelper";
 

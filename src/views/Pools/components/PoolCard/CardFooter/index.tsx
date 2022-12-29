@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
 import { useTranslation } from 'contexts/Localization'
-import { Flex, CardFooter, ExpandableLabel, HelpIcon, useTooltip } from 'inve-swap-uikit'
+import { Flex, CardFooter, ExpandableLabel, HelpIcon, useTooltip } from 'dbx-swap-uikit'
 import { Pool } from 'state/types'
 import { CompoundingPoolTag, ManualPoolTag } from 'components/Tags'
 import ExpandedFooter from './ExpandedFooter'

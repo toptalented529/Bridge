@@ -1,7 +1,7 @@
 import React from 'react'
 import { useTranslation } from 'contexts/Localization'
 import styled from 'styled-components'
-import { Text, Flex, LinkExternal, Skeleton } from 'inve-swap-uikit'
+import { Text, Flex, LinkExternal, Skeleton } from 'dbx-swap-uikit'
 
 export interface ExpandableSectionProps {
   znxScanAddress?: string

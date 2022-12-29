@@ -1,4 +1,4 @@
-import { Pair, Token } from 'inve-swap-sdk'
+import { Pair, Token } from 'dbx-swap-sdk'
 import flatMap from 'lodash/flatMap'
 import { useCallback, useMemo } from 'react'
 import { useDispatch, useSelector } from 'react-redux'

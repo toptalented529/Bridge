@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { useTranslation } from 'contexts/Localization'
-import { Text, Flex, Checkbox, Button } from 'inve-swap-uikit'
+import { Text, Flex, Checkbox, Button } from 'dbx-swap-uikit'
 
 interface AcknowledgementProps {
   handleContinueClick: () => void

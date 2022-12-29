@@ -1,7 +1,7 @@
 import React, { useMemo, useState } from 'react'
 import styled from 'styled-components'
-import { Trade, TradeType } from 'inve-swap-sdk'
-import { Button, Text, AutoRenewIcon } from 'inve-swap-uikit'
+import { Trade, TradeType } from 'dbx-swap-sdk'
+import { Button, Text, AutoRenewIcon } from 'dbx-swap-uikit'
 import { Field } from 'state/swap/actions'
 import {
   computeSlippageAdjustedAmounts,

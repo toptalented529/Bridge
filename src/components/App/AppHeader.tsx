@@ -6,7 +6,7 @@ import {
   IconButton,
   ArrowBackIcon,
   Text,
-} from "inve-swap-uikit";
+} from "dbx-swap-uikit";
 import { Link } from "react-router-dom";
 // import Settings from './Settings'
 // import Transactions from './Transactions'

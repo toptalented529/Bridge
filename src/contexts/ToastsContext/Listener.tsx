@@ -1,5 +1,5 @@
 import React from 'react'
-import { ToastContainer } from 'inve-swap-uikit'
+import { ToastContainer } from 'dbx-swap-uikit'
 import useToast from 'hooks/useToast'
 
 const ToastListener = () => {

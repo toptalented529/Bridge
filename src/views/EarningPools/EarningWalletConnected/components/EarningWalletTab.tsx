@@ -3,7 +3,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { useTranslation } from 'contexts/Localization'
-import { ButtonMenu, ButtonMenuItem } from 'inve-swap-uikit'
+import { ButtonMenu, ButtonMenuItem } from 'dbx-swap-uikit'
 
 const StyledButtonMenuItem = styled(ButtonMenuItem)<{ isActive: boolean }>`
   font-weight: 500;

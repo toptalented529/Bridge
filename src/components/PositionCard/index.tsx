@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import { JSBI, Pair, Percent } from 'inve-swap-sdk'
-import { Button, Text, ChevronUpIcon, ChevronDownIcon, Card, CardBody, Flex, CardProps, AddIcon } from 'inve-swap-uikit'
+import { JSBI, Pair, Percent } from 'dbx-swap-sdk'
+import { Button, Text, ChevronUpIcon, ChevronDownIcon, Card, CardBody, Flex, CardProps, AddIcon } from 'dbx-swap-uikit'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 import { useTranslation } from 'contexts/Localization'

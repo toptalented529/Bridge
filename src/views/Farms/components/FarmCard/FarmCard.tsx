@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import BigNumber from 'bignumber.js'
 import styled, { keyframes } from 'styled-components'
-import { Flex, Text, Skeleton } from 'inve-swap-uikit'
+import { Flex, Text, Skeleton } from 'dbx-swap-uikit'
 import { Farm } from 'state/types'
 import { getZnxScanLink } from 'utils'
 import { useTranslation } from 'contexts/Localization'

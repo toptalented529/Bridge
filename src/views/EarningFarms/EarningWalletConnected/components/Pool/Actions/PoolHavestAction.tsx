@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Button, AutoRenewIcon } from 'inve-swap-uikit'
+import { Button, AutoRenewIcon } from 'dbx-swap-uikit'
 import styled from 'styled-components'
 import BigNumber from 'bignumber.js'
 import { Token } from 'config/constants/types'

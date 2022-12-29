@@ -1,6 +1,6 @@
 import React from 'react'
-import { Currency, Token } from 'inve-swap-sdk'
-import { Button, Text, Modal, useModal, InjectedModalProps, Link } from 'inve-swap-uikit'
+import { Currency, Token } from 'dbx-swap-sdk'
+import { Button, Text, Modal, useModal, InjectedModalProps, Link } from 'dbx-swap-uikit'
 import styled from 'styled-components'
 import { AutoRow } from 'components/Layout/Row'
 import { AutoColumn } from 'components/Layout/Column'

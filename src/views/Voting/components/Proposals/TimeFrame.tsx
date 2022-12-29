@@ -1,5 +1,5 @@
 import React from 'react'
-import { Text } from 'inve-swap-uikit'
+import { Text } from 'dbx-swap-uikit'
 import { toDate, format } from 'date-fns'
 import { useTranslation } from 'contexts/Localization'
 import { ProposalState } from 'state/types'

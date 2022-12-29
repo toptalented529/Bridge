@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { useWalletModal } from 'inve-swap-uikit'
+import { useWalletModal } from 'dbx-swap-uikit'
 import useAuth from 'hooks/useAuth'
 import { useTranslation } from 'contexts/Localization'
 

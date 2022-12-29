@@ -1,5 +1,5 @@
 import { useMemo } from 'react'
-import { Token } from 'inve-swap-sdk'
+import { Token } from 'dbx-swap-sdk'
 import { isAddress } from '../../utils'
 
 export function filterTokens(tokens: Token[], search: string): Token[] {

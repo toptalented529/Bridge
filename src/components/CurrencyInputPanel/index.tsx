@@ -1,6 +1,6 @@
 import React from 'react'
-import { Currency, Pair } from 'inve-swap-sdk'
-import { Button, ChevronDownIcon, Text, useModal, Flex } from 'inve-swap-uikit'
+import { Currency, Pair } from 'dbx-swap-sdk'
+import { Button, ChevronDownIcon, Text, useModal, Flex } from 'dbx-swap-uikit'
 import styled from 'styled-components'
 import { useTranslation } from 'contexts/Localization'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'

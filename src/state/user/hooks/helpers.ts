@@ -1,4 +1,4 @@
-import { Token } from 'inve-swap-sdk'
+import { Token } from 'dbx-swap-sdk'
 import { SerializedToken } from '../actions'
 
 export function serializeToken(token: Token): SerializedToken {

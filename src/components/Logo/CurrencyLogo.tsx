@@ -1,5 +1,5 @@
-import { Currency, ETHER, Token } from 'inve-swap-sdk'
-import { ZilionixxIcon } from 'inve-swap-uikit'
+import { Currency, ETHER, Token } from 'dbx-swap-sdk'
+import { ZilionixxIcon } from 'dbx-swap-uikit'
 import React, { useMemo } from 'react'
 import styled from 'styled-components'
 import useHttpLocations from '../../hooks/useHttpLocations'

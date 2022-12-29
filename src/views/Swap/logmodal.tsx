@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Flex, ModalContainer, ModalBody, Input } from 'inve-swap-uikit'
+import { Button, Flex, ModalContainer, ModalBody, Input } from 'dbx-swap-uikit'
 import styled from 'styled-components'
 // import CurrencyInputPanel from './inputpanel'
 

@@ -1,4 +1,4 @@
-import { InjectedModalProps } from 'inve-swap-uikit'
+import { InjectedModalProps } from 'dbx-swap-uikit'
 
 export enum ConfirmVoteView {
   MAIN = 'main',

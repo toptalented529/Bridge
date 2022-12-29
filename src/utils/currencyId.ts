@@ -1,4 +1,4 @@
-import { Currency, ETHER, Token } from 'inve-swap-sdk'
+import { Currency, ETHER, Token } from 'dbx-swap-sdk'
 
 export function currencyId(currency: Currency): string {
   if (currency === ETHER) return 'PSC'

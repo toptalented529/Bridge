@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Text, useMatchBreakpoints } from 'inve-swap-uikit'
+import { Text, useMatchBreakpoints } from 'dbx-swap-uikit'
 import { Pool } from 'state/types'
 import { useTranslation } from 'contexts/Localization'
 import BaseCell, { CellContent } from './BaseCell'

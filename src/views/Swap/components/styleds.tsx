@@ -1,5 +1,5 @@
 import React from 'react'
-import { Text, ErrorIcon } from 'inve-swap-uikit'
+import { Text, ErrorIcon } from 'dbx-swap-uikit'
 import styled, { css } from 'styled-components'
 import { AutoColumn } from 'components/Layout/Column'
 

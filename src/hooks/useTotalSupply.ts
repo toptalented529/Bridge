@@ -1,5 +1,5 @@
 import { BigNumber } from '@ethersproject/bignumber'
-import { Token, TokenAmount } from 'inve-swap-sdk'
+import { Token, TokenAmount } from 'dbx-swap-sdk'
 import { useTokenContract } from './useContract'
 import { useSingleCallResult } from '../state/multicall/hooks'
 

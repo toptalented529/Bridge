@@ -5,7 +5,7 @@ import { Address } from 'config/constants/types'
 import BigNumber from 'bignumber.js'
 import { BASE_ADD_LIQUIDITY_URL } from 'config'
 import getLiquidityUrlPathParts from 'utils/getLiquidityUrlPathParts'
-import { Skeleton } from 'inve-swap-uikit'
+import { Skeleton } from 'dbx-swap-uikit'
 
 export interface AprProps {
   value: string

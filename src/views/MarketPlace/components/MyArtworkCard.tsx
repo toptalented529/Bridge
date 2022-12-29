@@ -2,8 +2,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
-import { Card, Button, useModal } from 'inve-swap-uikit'
-import { ChainId } from 'inve-swap-sdk'
+import { Card, Button, useModal } from 'dbx-swap-uikit'
+import { ChainId } from 'dbx-swap-sdk'
 
 import { Address } from 'config/constants/types'
 import addresses from 'config/constants/contracts'

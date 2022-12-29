@@ -1,6 +1,6 @@
 import { createGlobalStyle } from 'styled-components'
 // eslint-disable-next-line import/no-unresolved
-import { ZilionixxTheme } from 'inve-swap-uikit/dist/theme'
+import { ZilionixxTheme } from 'dbx-swap-uikit/dist/theme'
 
 declare module 'styled-components' {
   /* eslint-disable @typescript-eslint/no-empty-interface */

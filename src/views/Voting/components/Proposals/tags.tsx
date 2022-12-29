@@ -1,5 +1,5 @@
 import React from 'react'
-import { TagProps } from 'inve-swap-uikit'
+import { TagProps } from 'dbx-swap-uikit'
 import { ClosedTag, CommunityTag, CoreTag, SoonTag, VoteNowTag } from 'components/Tags'
 import { ProposalState } from 'state/types'
 

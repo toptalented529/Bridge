@@ -1,4 +1,4 @@
-import { ChainId, Token } from 'inve-swap-sdk'
+import { ChainId, Token } from 'dbx-swap-sdk'
 
 export const COLA: { [chainId: number]: Token } = {
   [ChainId.MAINNET]: new Token(

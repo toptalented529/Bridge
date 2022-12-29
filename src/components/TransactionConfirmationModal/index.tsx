@@ -1,5 +1,5 @@
 import React, { useCallback } from 'react'
-import { ChainId, Currency, Token } from 'inve-swap-sdk'
+import { ChainId, Currency, Token } from 'dbx-swap-sdk'
 import styled from 'styled-components'
 import {
   Button,
@@ -13,7 +13,7 @@ import {
   Spinner,
   Modal,
   InjectedModalProps,
-} from 'inve-swap-uikit'
+} from 'dbx-swap-uikit'
 import { registerToken } from 'utils/wallet'
 import { useTranslation } from 'contexts/Localization'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'

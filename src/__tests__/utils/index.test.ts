@@ -1,6 +1,6 @@
 import { BigNumber } from '@ethersproject/bignumber'
 import { AddressZero } from '@ethersproject/constants'
-import { TokenAmount, Token, ChainId, Percent, JSBI } from 'inve-swap-sdk'
+import { TokenAmount, Token, ChainId, Percent, JSBI } from 'dbx-swap-sdk'
 
 import {
   getZnxScanLink,

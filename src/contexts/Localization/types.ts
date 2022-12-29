@@ -1,5 +1,5 @@
 import { ReactText } from 'react'
-import { Language } from 'inve-swap-uikit'
+import { Language } from 'dbx-swap-uikit'
 
 export type ContextData = {
   [key: string]: ReactText

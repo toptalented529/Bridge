@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
-import { useMatchBreakpoints } from 'inve-swap-uikit'
+import { useMatchBreakpoints } from 'dbx-swap-uikit'
 import { Pool } from 'state/types'
 import { useCakeVault } from 'state/pools/hooks'
 import useDelayedUnmount from 'hooks/useDelayedUnmount'

@@ -1,7 +1,7 @@
 import React from 'react'
 import BigNumber from 'bignumber.js'
 import { getAddress } from 'utils/addressHelpers'
-import { ModalContainer, InjectedModalProps, ModalCloseButton } from 'inve-swap-uikit'
+import { ModalContainer, InjectedModalProps, ModalCloseButton } from 'dbx-swap-uikit'
 import { Pool } from 'state/types'
 import styled from 'styled-components'
 // import TopStakers from '../TopStakers'

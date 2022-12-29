@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Skeleton } from 'inve-swap-uikit'
+import { Skeleton } from 'dbx-swap-uikit'
 
 export interface EarnedProps {
   earnings: number

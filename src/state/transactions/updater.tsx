@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { Text, Flex, Link } from 'inve-swap-uikit'
+import { Text, Flex, Link } from 'dbx-swap-uikit'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 import { getZnxScanLink } from 'utils'
 import useToast from 'hooks/useToast'

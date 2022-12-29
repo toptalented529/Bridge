@@ -1,6 +1,6 @@
 import React from 'react'
 import { useTranslation } from 'contexts/Localization'
-import { InjectedModalProps, Text } from 'inve-swap-uikit'
+import { InjectedModalProps, Text } from 'dbx-swap-uikit'
 import styled from 'styled-components'
 
 const StyledCardTitle = styled.div`

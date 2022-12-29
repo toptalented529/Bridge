@@ -3,7 +3,7 @@ import axios from 'axios'
 import styled from 'styled-components'
 import { NFT_API_SERVER } from 'config/constants'
 
-import { Button, Text, Flex, ButtonMenu } from 'inve-swap-uikit'
+import { Button, Text, Flex, ButtonMenu } from 'dbx-swap-uikit'
 
 import useToast from 'hooks/useToast'
 import HomeArtworkCard from './HomeArtworkCard'

@@ -1,4 +1,4 @@
-import { CurrencyAmount, ETHER, JSBI } from 'inve-swap-sdk'
+import { CurrencyAmount, ETHER, JSBI } from 'dbx-swap-sdk'
 import { MIN_BNB } from '../config/constants'
 
 /**

@@ -4,7 +4,7 @@ import axios from 'axios'
 import { Link } from 'react-router-dom'
 import { useWeb3React } from '@web3-react/core'
 import styled from 'styled-components'
-import { Card, CardBody, Button, AutoRenewIcon, useWalletModal } from 'inve-swap-uikit'
+import { Card, CardBody, Button, AutoRenewIcon, useWalletModal } from 'dbx-swap-uikit'
 
 import { NFT_API_SERVER } from 'config/constants'
 import useAuth from 'hooks/useAuth'

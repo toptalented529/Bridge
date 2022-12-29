@@ -1,4 +1,4 @@
-import { Toast } from 'inve-swap-uikit'
+import { Toast } from 'dbx-swap-uikit'
 
 type ToastSignature = (title: Toast['title'], description?: Toast['description']) => void
 

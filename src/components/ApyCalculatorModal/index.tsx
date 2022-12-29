@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Modal, Text, LinkExternal, Flex, Box } from "inve-swap-uikit";
+import { Modal, Text, LinkExternal, Flex, Box } from "dbx-swap-uikit";
 import { useTranslation } from "contexts/Localization";
 import {
   tokenEarnedPerThousandDollarsCompounding,

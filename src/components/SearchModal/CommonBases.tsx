@@ -1,6 +1,6 @@
 import React from 'react'
-import { ChainId, Currency, currencyEquals, ETHER, Token } from 'inve-swap-sdk'
-import { Text } from 'inve-swap-uikit'
+import { ChainId, Currency, currencyEquals, ETHER, Token } from 'dbx-swap-sdk'
+import { Text } from 'dbx-swap-uikit'
 import styled from 'styled-components'
 import { useTranslation } from 'contexts/Localization'
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import { CardHeader, Heading, Text, Flex } from 'inve-swap-uikit'
+import { CardHeader, Heading, Text, Flex } from 'dbx-swap-uikit'
 import styled from 'styled-components'
 import { useTranslation } from 'contexts/Localization'
 import { Token } from 'config/constants/types'

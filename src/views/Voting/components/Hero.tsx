@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Button, Flex, Heading, ProposalIcon } from 'inve-swap-uikit'
+import { Box, Button, Flex, Heading, ProposalIcon } from 'dbx-swap-uikit'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'contexts/Localization'

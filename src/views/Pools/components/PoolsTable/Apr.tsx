@@ -1,5 +1,5 @@
 import React from 'react'
-import { Flex, useModal, CalculateIcon, Skeleton, FlexProps, Button } from 'inve-swap-uikit'
+import { Flex, useModal, CalculateIcon, Skeleton, FlexProps, Button } from 'dbx-swap-uikit'
 import ApyCalculatorModal from 'components/ApyCalculatorModal'
 import Balance from 'components/Balance'
 import { Pool } from 'state/types'

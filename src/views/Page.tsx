@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Flex,Text } from "inve-swap-uikit";
+import { Flex,Text } from "dbx-swap-uikit";
 import SubNav from "components/Menu/SubNav";
 import Settings from "components/Settings";
 import { AlignJustify } from "react-feather";

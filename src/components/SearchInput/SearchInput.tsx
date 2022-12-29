@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react'
-import { Input } from 'inve-swap-uikit'
+import { Input } from 'dbx-swap-uikit'
 import styled from 'styled-components'
 import debounce from 'lodash/debounce'
 import { useTranslation } from 'contexts/Localization'

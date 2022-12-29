@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import styled from 'styled-components'
-import { Button, Text, ArrowDownIcon, Alert, useModal } from 'inve-swap-uikit'
+import { Button, Text, ArrowDownIcon, Alert, useModal } from 'dbx-swap-uikit'
 
 import { Wrapper } from 'views/Swap/components/styleds'
 import { AutoColumn } from 'components/Layout/Column'

@@ -12,7 +12,7 @@ import {
   Text,
   TimerIcon,
   useTooltip,
-} from 'inve-swap-uikit'
+} from 'dbx-swap-uikit'
 import { BASE_BSC_SCAN_URL } from 'config'
 import { getZnxScanLink } from 'utils'
 import { useBlock } from 'state/block/hooks'

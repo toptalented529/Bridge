@@ -1,5 +1,5 @@
 import React from 'react'
-import { Progress, ProgressProps } from 'inve-swap-uikit'
+import { Progress, ProgressProps } from 'dbx-swap-uikit'
 import { useBlock } from 'state/block/hooks'
 
 interface BlockProgressProps extends ProgressProps {

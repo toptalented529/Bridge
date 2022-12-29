@@ -1,6 +1,6 @@
-import { Currency, CurrencyAmount, Fraction, Percent } from 'inve-swap-sdk'
+import { Currency, CurrencyAmount, Fraction, Percent } from 'dbx-swap-sdk'
 import React from 'react'
-import { Button, Text } from 'inve-swap-uikit'
+import { Button, Text } from 'dbx-swap-uikit'
 import { useTranslation } from 'contexts/Localization'
 import { RowBetween, RowFixed } from '../../components/Layout/Row'
 import { CurrencyLogo } from '../../components/Logo'

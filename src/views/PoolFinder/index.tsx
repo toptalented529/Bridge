@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useState } from 'react'
-import { Currency, ETHER, JSBI, TokenAmount } from 'inve-swap-sdk'
-import { Button, ChevronDownIcon, Text, AddIcon, useModal, CardBody } from 'inve-swap-uikit'
+import { Currency, ETHER, JSBI, TokenAmount } from 'dbx-swap-sdk'
+import { Button, ChevronDownIcon, Text, AddIcon, useModal, CardBody } from 'dbx-swap-uikit'
 import styled from 'styled-components'
 import { useTranslation } from 'contexts/Localization'
 // import { LightCard } from '../../components/Card'

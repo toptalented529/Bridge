@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Grid } from 'inve-swap-uikit'
+import { Grid } from 'dbx-swap-uikit'
 
 const GridLayout = styled(Grid)`
   grid-template-columns: repeat(1, 1fr);

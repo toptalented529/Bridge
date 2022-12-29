@@ -1,5 +1,5 @@
 import React from "react";
-import { Modal } from "inve-swap-uikit";
+import { Modal } from "dbx-swap-uikit";
 import SlippageToleranceSetting from "./SlippageToleranceSetting";
 import AudioSetting from "./AudioSetting";
 

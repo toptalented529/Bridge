@@ -2,7 +2,7 @@
 import React from 'react'
 import axios from 'axios'
 import styled from 'styled-components'
-import { Button, Text, Input, AutoRenewIcon, Modal } from 'inve-swap-uikit'
+import { Button, Text, Input, AutoRenewIcon, Modal } from 'dbx-swap-uikit'
 
 import { ModalActions } from 'components/Modal'
 import { NFT_API_SERVER } from 'config/constants'

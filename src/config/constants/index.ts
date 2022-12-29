@@ -1,4 +1,4 @@
-import { ChainId, JSBI, Percent, Token, WETH } from 'inve-swap-sdk'
+import { ChainId, JSBI, Percent, Token, WETH } from 'dbx-swap-sdk'
 import { BUSD, DAI, USDT, BTCB, COLA, WBNB, UST, ETH, USDC } from './tokens'
 
 export const ROUTER_ADDRESS = '0x8064931649E20d2680a9126205916471D680E95C'
