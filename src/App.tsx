@@ -33,6 +33,7 @@ const EarningWalletConnected = lazy(() => import('./views/EarningFarms/EarningWa
 const EarningPools = lazy(() => import('./views/EarningPools'))
 
 const Bridge = lazy(() => import('./views/Bridge'))
+const Stable = lazy(() => import('./views/Stable'))
 
 const AddLiquidity = lazy(() => import('./views/AddLiquidity'))
 const Liquidity = lazy(() => import('./views/Pool'))
@@ -78,6 +79,9 @@ const App: React.FC = () => {
     
             <Route path="/bridge">
               <Bridge />
+            </Route>
+            <Route path="/stable">
+              <Stable/>
             </Route>
 
             {/* Using this format because these components use routes injected props. We need to rework them with hooks */}

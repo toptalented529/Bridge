@@ -19,8 +19,7 @@ export const networkOptionsA = [
 ]
 
 export const tokenOptions = [
-{value:'USDC',label:'USDC'},
-{value:'USX',label:'USX'},
+{value:'DBX',label:'DBX'},
 {value:'DBX',label:'DBX'},
 
 ]

@@ -11,7 +11,7 @@ const StyledPage = styled.div`
   align-items: center;
   width: 100%;
   min-width:550px;
-  padding: 111px 16px;
+  padding: 200px 16px;
   min-height: calc(100vh - 64px);
   background-size: 150%;
   // background: black;

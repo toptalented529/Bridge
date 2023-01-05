@@ -179,8 +179,8 @@
       "logoURI": "https://znxscan.com/images/tokens/0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd.png"
     },
     {
-      "name": "XUSD",
-      "symbol": "XUSD",
+      "name": "xUS",
+      "symbol": "xUS",
       "address": "0x91efa3FC448b7FCD40880F3ef650eB99635e6143",
       "chainId": 5348,
       "decimals": 6,
