@@ -97,14 +97,14 @@ const Boxs = styled.div`
 `
 
 const Home: React.FC = () => {
-  const [selectedOption, setSelectedOption] = useState<any>({ value: 80001, label: 'Mumbai' })
+  const [selectedOption, setSelectedOption] = useState<any>({ value: 1, label: 'Ethereum' })
   const [toSelectedOption, setToSelectedOption] = useState<any>({ value: 5348, label: 'DBX' })
   const [web3modal, setWeb3Modal] = useState<any>({})
   const [provider, setProvider] = useState<any>()
   const [account, setAccount] = useState<string>()
   const [chainId, setChainId] = useState<number>()
   const [error, setError] = useState<any>('')
-  const [fromChain, setFromChain] = useState<number>(80001)
+  const [fromChain, setFromChain] = useState<number>(1)
   const [toChain, setToChain] = useState<number>(5348)
   const [library, setLibrary] = useState<any>()
   const [amount, setAmount] = useState<any>()

@@ -1,20 +1,20 @@
 
 
 export const networkOptions = [
-    {value:'80001',label:'Mumbai'},
+    {value:'1',label:'Etherem'},
     {value:'97',label:'BSC'},
     {value:'5348',label:'DBX'}
 ]
 export const networkOptions_ = [
     {value:'5348',label:'DBX'},
     {value:'97',label:'BSC'}, 
-    {value:'80001',label:'Mumbai'},
+    {value:'1',label:'Etherem'},
 ]
 export const networkOptionsA = [
     
     {value:'5348',label:'DBX'},
     {value:'97',label:'BSC'}, 
-    {value:'80001',label:'Mumbai'},
+    {value:'1',label:'Etherem'},
 
 ]
 
