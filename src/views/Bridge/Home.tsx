@@ -355,7 +355,7 @@ const Home: React.FC = () => {
     } else {
       bridgeNetwork = fromChain
     }
-    console.log("herer",networkParams[toHex(toChain)].id)
+    console.log("herer",toChain)
 
     if (fromChain !== SCALLOP_CHAINID) {
       await deposit(

@@ -74,8 +74,8 @@ export const assets = {
     },
     "0x1": {
       '0x14e4': {
-        bridge: '0x2fd26785BE96b970c7Ee54e26C84bCf1b6c692f2',
-        handler: '0xe41a90E97943E73eA1580ac6Dc3E714420081B0A'
+        bridge: '0x2D54D6E69D69762BCEB41e90c87ebDc2e611B6f6',
+        handler: '0xdeDe3e7bCB996c670aEF41DDdf473dAF94ce92cc'
       },
       "0x1": {
         bridge: '0x74baC7E4cfBea8F71d4ea6ce3C190bFce61Bc22E',
