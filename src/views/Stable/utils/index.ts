@@ -8,20 +8,19 @@ import bridgeScallopAbi from './abis/BridgeScallop.json';
 export const approveDbx = async (amount:any, tokenAddr:any,bridgeNetwork:any, chainId:any, wallet:any): Promise<any> => {
   const token = new ethers.Contract(tokenAddr, tokenAbi, wallet);
   const handlerAddr = bridgeParams[toHex(bridgeNetwork)][toHex(chainId)].handler;
-  console.log(token,handlerAddr)
-  const amountInWei = ethers.utils.parseUnits(amount.toString(), 'ether');
+  const amountInWei = ethers.utils.parseUnits((amount/1000000000000).toFixed(18).toString(), 'ether');
+  console.log("asdasdasdasd",Number(amountInWei),handlerAddr)
   const gasPrice = ethers.utils.hexlify(
     Number(networkParams[toHex(chainId)].gasPrice),
   );
   const gasLimit = ethers.utils.hexlify(
     Number(networkParams[toHex(chainId)].gasLimit),
   );
-
   const account = await wallet.getAddress();
   const balanceInWei = await token.balanceOf(account);
 
   const balance = ethers.utils.formatEther(balanceInWei);
-  console.log(amount,parseInt(balance) * 1000000000000)
+  console.log(amount,parseFloat(balance) * 1000000000000)
   if (parseFloat(balance) * 1000000000000 < amount) {
     window.alert('Not enough token');
     console.log('You don\'t have enough token balance!',balance);
@@ -29,10 +28,8 @@ export const approveDbx = async (amount:any, tokenAddr:any,bridgeNetwork:any, ch
   }
 
   const allowanceInWei = await token.allowance(account, handlerAddr);
-  const allowance = ethers.utils.formatEther(allowanceInWei);
 
-  console.log(allowance)
-  if (allowance >= amount) {
+  if (allowanceInWei >= amount * 1000000) {
     window.alert('Enough token is already approved!');
     return 1
   }
@@ -60,8 +57,8 @@ export const approve = async (amount:any, tokenAddr:any,bridgeNetwork:any, chain
   const balanceInWei = await token.balanceOf(account);
 
   const balance = ethers.utils.formatEther(balanceInWei);
-  console.log(amount,parseInt(balance) * 1000000000000)
-  if (parseFloat(balance) * 1000000000000 < amount) {
+
+  if (balance  < amount) {
     window.alert('Not enough token');
     console.log('You don\'t have enough token balance!',balance);
     return {};
@@ -100,7 +97,6 @@ export const deposit = async (
   // }
 
 
-  console.log("ffeerr",bridgeNetwork,chainId)
   const bridgeAddr = bridgeParams[toHex(bridgeNetwork)][toHex(chainId)].bridge;
   const bridge = new ethers.Contract(bridgeAddr, bridgeAbi.abi, wallet);
 
@@ -163,7 +159,6 @@ export const depositScallop = async (
   const recipient = await wallet.getAddress();
   
   const amountInWei = ethers.utils.parseUnits((amount/1000000000000).toFixed(18).toString(), 'ether');
-  console.log("here",Number(amountInWei),(amount/100).toFixed(16))
   // const gasPrice = ethers.utils.hexlify(
   //   Number(networkParams[toHex(chainId)].gasPrice),
   // );

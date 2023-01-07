@@ -43,8 +43,8 @@ export const assets = {
       nativeCurrency: { name: 'Ether', decimals: 18, symbol: 'ETH' },
       blockExplorerUrl: ['https://mumbai.polygonscan.com/'],
       iconUrls: [],
-      gasPrice: '30000000000',
-      gasLimit: '8000000'
+      gasPrice: '70000000000',
+      gasLimit: '250000'
     },
     '0x38': {
       id: 0,

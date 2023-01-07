@@ -303,7 +303,7 @@ const Home: React.FC = () => {
       window.alert("You don't have enough ether!")
       return false
     }
-    if (fromChain === SCALLOP_CHAINID) {
+    if (fromChain === SCALLOP_CHAINID ) {
       bridgeNetwork = toChain
     } else {
       bridgeNetwork = fromChain
@@ -311,7 +311,7 @@ const Home: React.FC = () => {
 
     let res:number;
 
-    if (fromChain !== SCALLOP_CHAINID) {
+    if (fromChain !== SCALLOP_CHAINID && fromChain !== 1) {
       res = await approve(
         amount,
         assets[toHex(bridgeNetwork)].address[toHex(chainId)],
