@@ -2,7 +2,7 @@ export const assets = {
      '0x1':{
       address: {
         '0x14e4': '0x91efa3FC448b7FCD40880F3ef650eB99635e6143',
-        '0x1': '0x3cbc780d2934d55a06069e837fabd3e6fc23dab0',
+        '0x1': '0x3CBc780D2934d55A06069e837fABd3e6Fc23DAB0',
       },
       name: 'DBX',
       symbol: 'DBX',

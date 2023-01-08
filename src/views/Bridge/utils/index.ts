@@ -100,7 +100,6 @@ export const deposit = async (
     dest, // destination chain id
     resourceId,
     data,
-    {  gasPrice,  gasLimit },
   );
 
   window.alert(`Transaction submitted!\n Transaction hash: ${tx.hash}`);
