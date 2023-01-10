@@ -279,10 +279,10 @@ const Home: React.FC = () => {
       window.alert('Can not bridge on same Chain')
       return false
     }
-    if (fromChain !== 5348 && toChain !== 5348) {
-      window.alert('Can not bridge for these chains')
-      return false
-    }
+    // if (fromChain !== 5348 && toChain !== 5348) {
+    //   window.alert('Can not bridge for these chains')
+    //   return false
+    // }
 
     const signer = library.getSigner()
 
@@ -304,14 +304,31 @@ const Home: React.FC = () => {
       bridgeNetwork = fromChain
     }
 
-    const res = await approve(
+
+    let res1:number
+
+
+    if((fromChain === 1 && toChain === 56) || (fromChain === 56 && toChain === 1)){
+      console.log("here")
+
+      res1 = await approve(
+        amount,
+        assets[toHex(897)].address[toHex(chainId)],
+        897,
+        chainId,
+        signer,
+      )
+      console.log("here",res1)
+    }else{
+     res1 = await approve(
       amount,
       assets[toHex(bridgeNetwork)].address[toHex(chainId)],
       bridgeNetwork,
       chainId,
       signer,
     )
-    if (res === 1) {
+    }
+    if (res1 === 1) {
       window.alert(`Successfully approved ${amount} ${assets[toHex(bridgeNetwork)].symbol}`)
       setApproved(true)
     } else {
@@ -332,10 +349,10 @@ const Home: React.FC = () => {
       window.alert('Can not bridge on same Chain')
       return false
     }
-    if (fromChain !== 5348 && toChain !== 5348) {
-      window.alert('Can not bridge for these chains')
-      return false
-    }
+    // if (fromChain !== 5348 && toChain !== 5348) {
+    //   window.alert('Can not bridge for these chains')
+    //   return false
+    // }
     const signer = library.getSigner()
     const ethBalanceHex = await signer.getBalance()
     const ethBalance = ethers.utils.formatEther(ethBalanceHex)
@@ -358,14 +375,27 @@ const Home: React.FC = () => {
     console.log("herer",toChain)
 
     if (fromChain !== SCALLOP_CHAINID) {
-      await deposit(
-        amount,
-        networkParams[toHex(toChain)].id,
-        bridgeNetwork,
-        assets[toHex(bridgeNetwork)].resourceId,
-        fromChain,
-        signer,
-      )
+      if(toChain !== SCALLOP_CHAINID){
+
+        await deposit(
+          amount,
+          networkParams[toHex(897)][toHex(toChain)].id,
+          897,
+          assets[toHex(897)].resourceId,
+          fromChain,
+          signer,
+        )
+      }else{
+        await deposit(
+          amount,
+          networkParams[toHex(toChain)].id,
+          bridgeNetwork,
+          assets[toHex(bridgeNetwork)].resourceId,
+          fromChain,
+          signer,
+        )
+
+      }
     } else {
       await depositScallop(
         amount,

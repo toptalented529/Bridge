@@ -26,8 +26,8 @@ const CurrencySelectButton = styled(Button).attrs({ variant: 'text', scale: 'sm'
 const StyledText = styled(Text)`
   color: ${({ theme }) => (theme.isDark ? '#D6D7E3' : '#19274B')};
   font-style: normal;
-  font-weight: 600;
-  font-size: 15px;
+  font-weight: 400;
+  font-size: 19px;
   line-height: 18px;
 `
 const StyledBalanceText = styled(Text)`
@@ -172,7 +172,7 @@ export default function CurrencyInputPanel({
               {pair ? (
                 <DoubleCurrencyLogo currency0={pair.token0} currency1={pair.token1} size={16} margin />
               ) : currency ? (
-                <CurrencyLogo currency={currency} size="24px" style={{ marginRight: '8px' }} />
+                <CurrencyLogo currency={currency} size="40px" style={{ marginRight: '8px' }} />
               ) : null}
               {pair ? (
                 <StyledText id="pair">

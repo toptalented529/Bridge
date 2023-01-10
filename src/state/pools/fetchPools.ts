@@ -39,11 +39,11 @@ export const fetchPoolsBlockLimits = async () => {
 }
 
 export const fetchPoolsTotalStaking = async () => {
-  const nonBnbPools = poolsConfig.filter((p) => p.stakingToken.symbol !== 'PSC' && !(p.earningToken.symbol === 'INV' && p.stakingToken.symbol === 'INV'))
+  const nonBnbPools = poolsConfig.filter((p) => p.stakingToken.symbol !== 'DBX' && !(p.earningToken.symbol === 'INV' && p.stakingToken.symbol === 'INV'))
   const invPools = poolsConfig.filter((p) => p.earningToken.symbol === 'INV' && p.stakingToken.symbol === 'INV')
 
   
-  const bnbPool = poolsConfig.filter((p) => p.stakingToken.symbol === 'PSC')
+  const bnbPool = poolsConfig.filter((p) => p.stakingToken.symbol === 'DBX')
 
   const callsNonBnbPools = nonBnbPools.map((poolConfig) => {
     return {
@@ -107,7 +107,7 @@ export const fetchPoolsStakingLimits = async (
   poolsWithStakingLimit: number[],
 ): Promise<{ [key: string]: BigNumber }> => {
   const validPools = poolsConfig
-    .filter((p) => p.stakingToken.symbol !== 'PSC' && !p.isFinished)
+    .filter((p) => p.stakingToken.symbol !== 'DBX' && !p.isFinished)
     .filter((p) => !poolsWithStakingLimit.includes(p.sousId))
 
   // Get the staking limit for each valid pool

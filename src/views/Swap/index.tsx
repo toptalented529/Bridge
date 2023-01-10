@@ -53,15 +53,15 @@ const StyledButton = styled(Button).attrs({ variant: 'text', scale: 'sm' })`
   color: white;
   padding: 12px 0px;
   width: 100%;
+  height:70px;
   border-radius: 32px;
   text-align: center;
   border: 1px solid transparent;
   font-weight: 500;
-  font-size: 17px;
+  font-size: 20px;
   line-height: 26px;
   letter-spacing: 0.01em;
   text-transform: none;
-  height: 3.3vw;
   min-height:40px;
   margin: 0px !important;
   box-shadow: none;
@@ -363,9 +363,9 @@ export default function Swap({ history }: RouteComponentProps) {
                   </StyledArrowDown>
                 </ArrowWrapper>
                 {recipient === null && !showWrap && isExpertMode ? (
-                  <Button variant="text" id="add-recipient-button" onClick={() => onChangeRecipient('')}>
+                  <StyledButton variant="text" id="add-recipient-button" onClick={() => onChangeRecipient('')}>
                     {t('+ Add a send (optional)')}
-                  </Button>
+                  </StyledButton>
                 ) : null}
               </AutoRow>
             </AutoColumn>
@@ -386,9 +386,9 @@ export default function Swap({ history }: RouteComponentProps) {
                   <ArrowWrapper clickable={false}>
                     <ArrowDownIcon width="16px" />
                   </ArrowWrapper>
-                  <Button variant="text" id="remove-recipient-button" onClick={() => onChangeRecipient(null)}>
+                  <StyledButton variant="text" id="remove-recipient-button" onClick={() => onChangeRecipient(null)}>
                     {t('- Remove send')}
-                  </Button>
+                  </StyledButton>
                 </AutoRow>
                 <AddressInputPanel id="recipient" value={recipient} onChange={onChangeRecipient} />
               </>
@@ -419,18 +419,18 @@ export default function Swap({ history }: RouteComponentProps) {
           </AutoColumn>
           <Box mt="1rem" mb="1rem" style={{ textAlign: 'center' }}>
             {swapIsUnsupported ? (
-              <Button width="100%" disabled mb="4px">
+              <StyledButton width="100%" disabled mb="4px">
                 {t('Unsupported Asset')}
-              </Button>
+              </StyledButton>
             ) : !account ? (
               <ConnectWalletButton />
             ) : showWrap ? (
-              <Button width="100%" disabled={Boolean(wrapInputError)} onClick={onWrap}>
+              <StyledButton width="100%" disabled={Boolean(wrapInputError)} onClick={onWrap}>
                 {wrapInputError ??
                   (wrapType === WrapType.WRAP ? 'Wrap' : wrapType === WrapType.UNWRAP ? 'Unwrap' : null)}
-              </Button>
+              </StyledButton>
             ) : noRoute && userHasSpecifiedInputOutput ? (
-              <GreyCard style={{ textAlign: 'center' }}>
+              <GreyCard style={{ textAlign: 'center'}}>
                 <Text color="textSubtle" mb="4px">
                   {t('Insufficient liquidity for this trade.')}
                 </Text>
@@ -442,7 +442,7 @@ export default function Swap({ history }: RouteComponentProps) {
               </GreyCard>
             ) : showApproveFlow ? (
               <RowBetween>
-                <Button
+                <StyledButton
                   variant={approval === ApprovalState.APPROVED ? 'success' : 'primary'}
                   onClick={approveCallback}
                   disabled={approval !== ApprovalState.NOT_APPROVED || approvalSubmitted}
@@ -457,8 +457,8 @@ export default function Swap({ history }: RouteComponentProps) {
                   ) : (
                     t('Enable %asset%', { asset: currencies[Field.INPUT]?.symbol ?? '' })
                   )}
-                </Button>
-                <Button
+                </StyledButton>
+                <StyledButton
                   variant={isValid && priceImpactSeverity > 2 ? 'danger' : 'success'}
                   onClick={() => {
                     if (isExpertMode) {
@@ -484,7 +484,7 @@ export default function Swap({ history }: RouteComponentProps) {
                     : priceImpactSeverity > 2
                     ? t('Swap Anyway')
                     : t('Swap')}
-                </Button>
+                </StyledButton>
               </RowBetween>
             ) : (
               <StyledButton
@@ -504,6 +504,7 @@ export default function Swap({ history }: RouteComponentProps) {
                 }}
                 id="swap-button"
                 width="100%"
+                height = "80px"
                 disabled={!isValid || (priceImpactSeverity > 3 && !isExpertMode) || !!swapCallbackError}
               >
                 {swapInputError ||

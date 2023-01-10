@@ -47,7 +47,7 @@ export interface Ifo {
 export enum PoolCategory {
   'COMMUNITY' = 'Community',
   'CORE' = 'Core',
-  'BINANCE' = 'Binance', // Pools using native PSC behave differently than pools using a token
+  'BINANCE' = 'Binance', // Pools using native DBX behave differently than pools using a token
   'AUTO' = 'Auto',
 }
 

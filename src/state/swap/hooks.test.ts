@@ -4,42 +4,42 @@ import { queryParametersToSwapState } from './hooks'
 
 describe('hooks', () => {
   describe('#queryParametersToSwapState', () => {
-    test('PSC to DAI', () => {
+    test('DBX to DAI', () => {
       expect(
         queryParametersToSwapState(
           parse(
-            '?inputCurrency=PSC&outputCurrency=0x6b175474e89094c44da98b954eedeac495271d0f&exactAmount=20.5&exactField=outPUT',
+            '?inputCurrency=DBX&outputCurrency=0x6b175474e89094c44da98b954eedeac495271d0f&exactAmount=20.5&exactField=outPUT',
             { parseArrays: false, ignoreQueryPrefix: true },
           ),
         ),
       ).toEqual({
         [Field.OUTPUT]: { currencyId: '0x6B175474E89094C44Da98b954EedeAC495271d0F' },
-        [Field.INPUT]: { currencyId: 'PSC' },
+        [Field.INPUT]: { currencyId: 'DBX' },
         typedValue: '20.5',
         independentField: Field.OUTPUT,
         recipient: null,
       })
     })
 
-    test('does not duplicate PSC for invalid output token', () => {
+    test('does not duplicate DBX for invalid output token', () => {
       expect(
         queryParametersToSwapState(parse('?outputCurrency=invalid', { parseArrays: false, ignoreQueryPrefix: true })),
       ).toEqual({
         [Field.INPUT]: { currencyId: '' },
-        [Field.OUTPUT]: { currencyId: 'PSC' },
+        [Field.OUTPUT]: { currencyId: 'DBX' },
         typedValue: '',
         independentField: Field.INPUT,
         recipient: null,
       })
     })
 
-    test('output PSC only', () => {
+    test('output DBX only', () => {
       expect(
         queryParametersToSwapState(
           parse('?outputCurrency=bnb&exactAmount=20.5', { parseArrays: false, ignoreQueryPrefix: true }),
         ),
       ).toEqual({
-        [Field.OUTPUT]: { currencyId: 'PSC' },
+        [Field.OUTPUT]: { currencyId: 'DBX' },
         [Field.INPUT]: { currencyId: '' },
         typedValue: '20.5',
         independentField: Field.INPUT,
@@ -50,10 +50,10 @@ describe('hooks', () => {
     test('invalid recipient', () => {
       expect(
         queryParametersToSwapState(
-          parse('?outputCurrency=PSC&exactAmount=20.5&recipient=abc', { parseArrays: false, ignoreQueryPrefix: true }),
+          parse('?outputCurrency=DBX&exactAmount=20.5&recipient=abc', { parseArrays: false, ignoreQueryPrefix: true }),
         ),
       ).toEqual({
-        [Field.OUTPUT]: { currencyId: 'PSC' },
+        [Field.OUTPUT]: { currencyId: 'DBX' },
         [Field.INPUT]: { currencyId: '' },
         typedValue: '20.5',
         independentField: Field.INPUT,
@@ -64,13 +64,13 @@ describe('hooks', () => {
     test('valid recipient', () => {
       expect(
         queryParametersToSwapState(
-          parse('?outputCurrency=PSC&exactAmount=20.5&recipient=0x0fF2D1eFd7A57B7562b2bf27F3f37899dB27F4a5', {
+          parse('?outputCurrency=DBX&exactAmount=20.5&recipient=0x0fF2D1eFd7A57B7562b2bf27F3f37899dB27F4a5', {
             parseArrays: false,
             ignoreQueryPrefix: true,
           }),
         ),
       ).toEqual({
-        [Field.OUTPUT]: { currencyId: 'PSC' },
+        [Field.OUTPUT]: { currencyId: 'DBX' },
         [Field.INPUT]: { currencyId: '' },
         typedValue: '20.5',
         independentField: Field.INPUT,
@@ -80,13 +80,13 @@ describe('hooks', () => {
     test('accepts any recipient', () => {
       expect(
         queryParametersToSwapState(
-          parse('?outputCurrency=PSC&exactAmount=20.5&recipient=bob.argent.xyz', {
+          parse('?outputCurrency=DBX&exactAmount=20.5&recipient=bob.argent.xyz', {
             parseArrays: false,
             ignoreQueryPrefix: true,
           }),
         ),
       ).toEqual({
-        [Field.OUTPUT]: { currencyId: 'PSC' },
+        [Field.OUTPUT]: { currencyId: 'DBX' },
         [Field.INPUT]: { currencyId: '' },
         typedValue: '20.5',
         independentField: Field.INPUT,

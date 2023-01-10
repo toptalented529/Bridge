@@ -8,9 +8,9 @@ import { simpleRpcProvider } from 'utils/providers'
 import BigNumber from 'bignumber.js'
 
 // Pool 0, Cake / Cake is a different kind of contract (master chef)
-// PSC pools use the native PSC token (wrapping ? unwrapping is done at the contract level)
-const nonBnbPools = poolsConfig.filter((p) => p.stakingToken.symbol !== 'PSC')
-const bnbPools = poolsConfig.filter((p) => p.stakingToken.symbol === 'PSC')
+// DBX pools use the native DBX token (wrapping ? unwrapping is done at the contract level)
+const nonBnbPools = poolsConfig.filter((p) => p.stakingToken.symbol !== 'DBX')
+const bnbPools = poolsConfig.filter((p) => p.stakingToken.symbol === 'DBX')
 const nonMasterPools = poolsConfig.filter((p) => p.sousId !== 0)
 // const masterChefContract = getMasterchefContract()
 
@@ -30,7 +30,7 @@ export const fetchPoolsAllowance = async (account) => {
 }
 
 export const fetchUserBalances = async (account) => {
-  // Non PSC pools
+  // Non DBX pools
   const calls = nonBnbPools.map((p) => ({
     address: getAddress(p.stakingToken.address),
     name: 'balanceOf',
@@ -42,7 +42,7 @@ export const fetchUserBalances = async (account) => {
     {},
   )
 
-  // PSC pools
+  // DBX pools
   const bnbBalance = await simpleRpcProvider.getBalance(account)
   const bnbBalances = bnbPools.reduce(
     (acc, pool) => ({ ...acc, [pool.sousId]: new BigNumber(bnbBalance.toString()).toJSON() }),

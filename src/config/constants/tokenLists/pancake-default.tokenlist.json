@@ -148,7 +148,7 @@
     },
     {
       "name": "Parsec",
-      "symbol": "PSC",
+      "symbol": "DBX",
       "address": "0xfeae27388A65eE984F452f86efFEd42AaBD438FD",
       "chainId": 56,
       "decimals": 18,

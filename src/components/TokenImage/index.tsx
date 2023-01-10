@@ -15,7 +15,7 @@ interface TokenPairImageProps extends Omit<UIKitTokenPairImageProps, 'primarySrc
 }
 
 const getImageUrlFromToken = (token: Token) => {
-  const address = getAddress(token.symbol === 'PSC' ? tokens.wbnb.address : token.address)
+  const address = getAddress(token.symbol === 'DBX' ? tokens.wbnb.address : token.address)
   return `/images/tokens/${address}.svg`
 }
 

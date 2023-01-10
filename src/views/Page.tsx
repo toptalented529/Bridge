@@ -63,7 +63,7 @@ const Page: React.FC<React.HTMLAttributes<HTMLDivElement>> = ({
        <Text fontSize="16px" color="#d9d9d9" style ={{margin:"1vw 4vw 3vw 6vw"}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</Text> */}
       <Div>
         <Settings>
-          <SubNav />
+          {/* <SubNav /> */}
           {children}
         </Settings>
       </Div>

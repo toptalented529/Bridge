@@ -107,7 +107,7 @@ const PoolStakeCard: React.FC<{
 
   const { sousId, stakingToken, earningToken, poolCategory } = pool
 
-  // Pools using native PSC behave differently than pools using a token
+  // Pools using native DBX behave differently than pools using a token
   const isBnbPool = poolCategory === PoolCategory.BINANCE
   const isStaked = stakedBalance.gt(0)
 

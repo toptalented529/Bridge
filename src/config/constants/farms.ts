@@ -7,7 +7,7 @@ const farms: FarmConfig[] = [
    */
   {
     pid: 251,
-    lpSymbol: 'INV-PSC LP',
+    lpSymbol: 'INV-DBX LP',
     lpAddresses: {
       1339: '0xbD414BD587E80905F99339B025F486f5FBAfeA89',
       56: '0x5BfC4278E4B24F1Da1a10f51c4800b5AAa43d1B4',
@@ -17,7 +17,7 @@ const farms: FarmConfig[] = [
   },
   {
     pid: 252,
-    lpSymbol: 'BUSD-PSC LP',
+    lpSymbol: 'BUSD-DBX LP',
     lpAddresses: {
       1339: '0xD579Ec19a5fA0dC0C40fe29Cd1341C175197DFD6',
       56: '0xfE6619603569B172fbb7DcC18CF9DF6B0755FF89',
@@ -37,7 +37,7 @@ const farms: FarmConfig[] = [
   },
   {
     pid: 254,
-    lpSymbol: 'USDT-PSC LP',
+    lpSymbol: 'USDT-DBX LP',
     lpAddresses: {
       1339: '0x377c9043FF74c42fF3959EAA9b5528E87bF0aF25',
       56: '0x655A2C3b7a634dcBfDA9C7f2F805E6b7408435E7',

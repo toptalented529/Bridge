@@ -82,7 +82,7 @@ function TransactionSubmittedContent({
           <Text fontSize="20px">{t('Transaction Submitted')}</Text>
           {chainId && hash && (
             <Link external small href={getZnxScanLink(hash, 'transaction', chainId)}>
-              {t('view on ParsecScan')}
+              {t('view on DBXScan')}
             </Link>
           )}
           {currencyToAdd && library?.provider?.isMetaMask && (

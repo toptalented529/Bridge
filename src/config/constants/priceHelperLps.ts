@@ -12,7 +12,7 @@ const priceHelperLps: FarmConfig[] = [
   /** 
   {
     pid: null,
-    lpSymbol: 'QSD-PSC LP',
+    lpSymbol: 'QSD-DBX LP',
     lpAddresses: {
       93: '',
       90: '0x7b3ae32eE8C532016f3E31C8941D937c59e055B9',

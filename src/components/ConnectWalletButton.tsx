@@ -13,11 +13,11 @@ const ConnectButton = styled(Button).attrs({ variant: 'text', scale: 'sm' })`
   text-align: center;
   border: 1px solid transparent;
   font-weight: 500;
-  font-size: 17px;
+  font-size: 19px;
   line-height: 26px;
   letter-spacing: 0.01em;
   text-transform: none;
-  height: 3.3vw;
+  height: 70px;
   box-shadow: none;
   &:hover {
     opacity:1!important;

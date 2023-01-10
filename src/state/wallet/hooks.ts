@@ -8,7 +8,7 @@ import { isAddress } from 'utils'
 import { useSingleContractMultipleData, useMultipleContractSingleData } from '../multicall/hooks'
 
 /**
- * Returns a map of the given addresses to their eventually consistent PSC balances.
+ * Returns a map of the given addresses to their eventually consistent DBX balances.
  */
 export function useBNBBalances(uncheckedAddresses?: (string | undefined)[]): {
   [address: string]: CurrencyAmount | undefined

@@ -104,7 +104,7 @@ export default function AddressInputPanel({
               <Text>{t('Recipient')}</Text>
               {address && chainId && (
                 <Link external small href={getZnxScanLink(name ?? address, 'address', chainId)}>
-                  ({t('view on ParsecScan')})
+                  ({t('view on DBXScan')})
                 </Link>
               )}
             </RowBetween>

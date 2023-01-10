@@ -19,6 +19,16 @@ export const assets = {
       resourceId: '0x000000000000000000000000000000c76ebe4a02bbc34786d860b355f5a5ce02',
       bridgeID: 3
     },
+    '0x381':{
+      address: {
+        '0x38': '0x67dcAa9468c219ad81F5825EF0c8f58879c657dd',
+        '0x1': '0x3CBc780D2934d55A06069e837fABd3e6Fc23DAB0',
+      },
+      name: 'DBX',
+      symbol: 'DBX',
+      resourceId: '0x000000000000000000000000000000c76ebe4a02bbc34786d860b355f5a5ce04',
+      bridgeID: 4
+    },
 };
   
   export const networkParams = {
@@ -58,6 +68,32 @@ export const assets = {
       gasPrice: '30000000000',
       gasLimit: '8000000'
     },
+    '0x381': {
+      '0x1':{
+        id: 0,
+      chainId: 1,
+      hexChainId: '0x1',
+      rpcUrls: ['https://rpc.ankr.com/eth'],
+      chainName: 'Ethereum',
+      nativeCurrency: { name: 'Ether', decimals: 18, symbol: 'ETH' },
+      blockExplorerUrl: ['https://mumbai.polygonscan.com/'],
+      iconUrls: [],
+      gasPrice: '30000000000',
+      gasLimit: '8000000'
+      },
+      '0x38':{
+        id: 1,
+      chainId: 56,
+      hexChainId: '0x38',
+      rpcUrls: ['https://bsc-dataseed2.defibit.io/'],
+      chainName: 'BNB ',
+      nativeCurrency: { name: 'BNB', decimals: 18, symbol: 'Bnb' },
+      blockExplorerUrl: ['https://goerli.etherscan.io'],
+      iconUrls: [],
+      gasPrice: '30000000000',
+      gasLimit: '8000000'
+      }
+    }
   };
   
   export const bridgeParams = {
@@ -80,6 +116,17 @@ export const assets = {
       "0x1": {
         bridge: '0x74baC7E4cfBea8F71d4ea6ce3C190bFce61Bc22E',
         handler: '0x2fd26785BE96b970c7Ee54e26C84bCf1b6c692f2',
+        kycOracle: '0x934f28AC9a132CEcf95B49830074Cdf360264171'
+      }
+    },
+    "0x381": {
+      '0x38': {
+        bridge: '0x4F67DbfE6A901b3B564B958e168eF9F6B0127CF3',
+        handler: '0x9458DCf69F45F9517291091B122585cF5658f425'
+      },
+      "0x1": {
+        bridge: '0xa8C383E8453171bd51eAE2bAdCA8ad6f25372489',
+        handler: '0xF0c3f61fDeDFEa7b6dA2788EDbB5f0EBaD42c514',
         kycOracle: '0x934f28AC9a132CEcf95B49830074Cdf360264171'
       }
     }

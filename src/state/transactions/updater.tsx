@@ -75,7 +75,7 @@ export default function Updater(): null {
                   <Text>{transactions[hash]?.summary ?? `Hash: ${hash.slice(0, 8)}...${hash.slice(58, 65)}`}</Text>
                   {chainId && (
                     <Link external href={getZnxScanLink(hash, 'transaction', chainId)}>
-                      view on ParsecScan
+                      view on DBXScan
                     </Link>
                   )}
                 </Flex>,

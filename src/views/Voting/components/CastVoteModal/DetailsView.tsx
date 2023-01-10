@@ -68,7 +68,7 @@ const DetailsView: React.FC<DetailsViewProps> = ({
       </Flex>
       <Flex alignItems="center" justifyContent="space-between" mb="4px">
         <Text color="textSubtle" fontSize="16px">
-          {t('CAKE PSC LP')}
+          {t('CAKE DBX LP')}
         </Text>
         <Text textAlign="right">{cakeBnbLpBalance.toFormat(3)}</Text>
       </Flex>

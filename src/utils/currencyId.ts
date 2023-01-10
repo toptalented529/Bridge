@@ -1,7 +1,7 @@
 import { Currency, ETHER, Token } from 'dbx-swap-sdk'
 
 export function currencyId(currency: Currency): string {
-  if (currency === ETHER) return 'PSC'
+  if (currency === ETHER) return 'DBX'
   if (currency instanceof Token) return currency.address
   throw new Error('invalid currency')
 }

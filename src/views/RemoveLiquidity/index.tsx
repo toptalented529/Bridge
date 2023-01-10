@@ -539,11 +539,11 @@ export default function RemoveLiquidity({
                         </StyledInternalLink>
                       ) : oneCurrencyIsWETH ? (
                         <StyledInternalLink
-                          to={`/remove/${currencyA && currencyEquals(currencyA, WETH[chainId]) ? 'PSC' : currencyIdA}/${
-                            currencyB && currencyEquals(currencyB, WETH[chainId]) ? 'PSC' : currencyIdB
+                          to={`/remove/${currencyA && currencyEquals(currencyA, WETH[chainId]) ? 'DBX' : currencyIdA}/${
+                            currencyB && currencyEquals(currencyB, WETH[chainId]) ? 'DBX' : currencyIdB
                           }`}
                         >
-                          {t('Receive PSC')}
+                          {t('Receive DBX')}
                         </StyledInternalLink>
                       ) : null}
                     </RowBetween>

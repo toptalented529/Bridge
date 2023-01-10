@@ -67,15 +67,15 @@ const StyledButton = styled(Button).attrs({ variant: 'text', scale: 'sm' })`
   color: white;
   padding: 12px 0px;
   width: 100%;
+  height:70px;
   border-radius: 32px;
   text-align: center;
   border: 1px solid transparent;
   font-weight: 500;
-  font-size: 17px;
+  font-size: 20px;
   line-height: 26px;
   letter-spacing: 0.01em;
   text-transform: none;
-  height: fit-content;
   margin: 0px !important;
   box-shadow: none;
 `

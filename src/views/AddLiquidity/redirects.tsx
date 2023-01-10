@@ -6,7 +6,7 @@ export function RedirectToAddLiquidity() {
   return <Redirect to="/add/" />
 }
 
-const OLD_PATH_STRUCTURE = /^(0x[a-fA-F0-9]{40}|PSC)-(0x[a-fA-F0-9]{40}|PSC)$/
+const OLD_PATH_STRUCTURE = /^(0x[a-fA-F0-9]{40}|DBX)-(0x[a-fA-F0-9]{40}|DBX)$/
 export function RedirectOldAddLiquidityPathStructure(props: RouteComponentProps<{ currencyIdA: string }>) {
   const {
     match: {
